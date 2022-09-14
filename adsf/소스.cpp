@@ -4,8 +4,7 @@
 #include<cstdlib>
 #include<time.h>
 using namespace std;
-
-//1.자음과 모음 개수 세기
+// 우진식 화이팅
 /*int main(void) {
    int a = 0; //모음
    int b = 0; //자음
@@ -35,21 +34,16 @@ using namespace std;
    ::cout << "모음 : " << a << endl;
    ::cout << "자음 : " << b << endl;
    return 0;
-   //깃허브
 }*/
 
-//2. 산수 문제 자동 출제
 /*int main() {
-   char c; // c 연산자
+   char c;
    int result = 0;
    int answer;
    cout << "산수 문제를 자동으로 출제합니다." << endl;
-   // 시드값을 얻기 위한 random_device 생성.
    std::random_device rd;
-   // random_device 를 통해 난수 생성 엔진을 초기화 한다.
    std::mt19937 a(rd());
    std::mt19937 b(rd());
-   // 0 부터 10 까지 균등하게 나타나는 난수열을 생성하기 위해 균등 분포 정의.
    std::uniform_int_distribution<int> dis(0, 10);
    int aa = dis(a);
    int bb = dis(b);
@@ -57,7 +51,6 @@ using namespace std;
       cout << bb << endl;
    cout << "연산자 입력하기(+,-,*,/)" << endl;
    cin >> c;
-
    switch (c) {
    case '+':
       result = aa + bb;
@@ -74,15 +67,12 @@ using namespace std;
    }
    cout << "결과 입력하기" <<endl;
    cin >> answer;
-
    if (result == answer)
       cout << "맞았습니다" << endl;
    else
       cout << "틀렸습니다" << endl;
-
 }*/
 
-//3. 1부터 N까지 M의 배수합
 /*int main() {
    int n, m;
    int sum = 0;
@@ -95,7 +85,6 @@ using namespace std;
    cout << sum << endl;
 }*/
 
-//4.진약수의 합
 /*int main() {
    int a,sum=0;
    int s=1;
@@ -113,7 +102,6 @@ using namespace std;
    cout << " = " << sum;
 
 }*/
-//5. tic-tac-toe 게임
 
 /*int main() {
    char board[3][3];
@@ -133,7 +121,6 @@ using namespace std;
       cout << "---l---l---" << endl;
    }
 }*/
-//6. 지뢰찾기
 
 int main() {
 
